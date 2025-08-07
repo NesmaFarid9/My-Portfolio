@@ -23,11 +23,8 @@ export default function Home() {
 
   return (
     <>
-      <section
-        id="home"
-        className="min-h-screen flex items-center bg-gradient-to-br from-gray-900 via-gray-800 to-purple-900"
-      >
-        <div className="container">
+      <section id="home" className="min-h-screen flex items-center bg-gradient-to-br from-gray-900 via-gray-800 to-purple-900">
+        <div className="container mx-auto">
           <div className="flex flex-wrap justify-center items-center text-white">
             {/* TEXT SECTION */}
             <motion.div className="w-full md:w-8/12 order-2 md:order-first"
