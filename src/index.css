@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@utility container{
+    margin-inline: auto;
+}
+@theme {
+    --font-poppins: "Montserrat", sans-serif;
+    --font-inter: "Inter", 'sans-serif';
+}
+
+
+
+
