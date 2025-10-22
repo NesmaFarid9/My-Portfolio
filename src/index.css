@@ -2,6 +2,8 @@
 
 @utility container{
     margin-inline: auto;
+    max-width: 1500px;
+    padding-inline: 1rem;
 }
 @theme {
     --font-poppins: "Montserrat", sans-serif;
