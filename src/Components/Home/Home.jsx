@@ -23,7 +23,9 @@ export default function Home() {
 
   return (
     <>
-      <section id="home" className="min-h-screen flex items-center bg-gradient-to-br from-gray-900 via-gray-800 to-purple-900">
+      <section
+        id="home"
+        className="min-h-screen flex items-center bg-gradient-to-br from-gray-900 via-gray-800 to-purple-900">
         <div className="container mx-auto">
           <div className="flex flex-wrap justify-center items-center text-white">
             {/* TEXT SECTION */}
@@ -67,7 +69,7 @@ export default function Home() {
                     className="hover:bg-gradient-to-br border border-purple-500 from-blue-400 to-purple-500 rounded-full w-30 py-3 text-center font-bold text-xl cursor-pointer transition-all duration-700 ease-in-out hover:scale-102"
                   >
                     <a
-                      href="https://drive.google.com/file/d/1vEww7LXhyVtaXgsG6KyOvArKkNTGGIuw/view?usp=sharing"
+                      href="https://drive.google.com/file/d/1UQJdg9psQzLZ26CkmZuADIWw7z5_XNMn/view?usp=sharing"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
