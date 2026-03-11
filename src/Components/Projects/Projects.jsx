@@ -1,10 +1,13 @@
 import React from 'react'
-import projectOneImg from '../../assets/images/project1.PNG'
+// import projectOneImg from '../../assets/images/project1.PNG'
 import projectTwoImg from '../../assets/images/project2.PNG'
 import projectThreeImg from '../../assets/images/project3.PNG'
 import projectFourImg from '../../assets/images/project4.PNG'
 import projectFiveImg from '../../assets/images/project5.PNG'
 import projectSixImg from '../../assets/images/project6.PNG'
+import projectSevenImg from '../../assets/images/project7.PNG'
+import projectEightImg from '../../assets/images/project8.PNG'
+import projectNineImg from '../../assets/images/project9.PNG'
 
 export default function Projects() {
   return (
@@ -18,9 +21,61 @@ export default function Projects() {
           </div>
 
           <div className="row flex flex-wrap justify-center items-stretch gap-10 pt-10">
-
-            {/* Project 1 */}
             <div className="card w-[400px] group bg-[#1F2937] rounded-xl overflow-hidden hover:scale-105 transition-all duration-700">
+              <img src={projectSevenImg} className="w-full h-48 object-cover group-hover:scale-105 transition-all duration-700" alt="project1" />
+              <div className="p-4 text-white">
+                <h3 className="text-xl font-bold">E-commerce</h3>
+                <p className="text-sm text-gray-300 py-2">
+                  Developed a full-featured e-commerce web application that allows users to browse products by category and brand, add items to
+                  their cart or Wishlist, and complete purchases via Visa or cash payment. Implemented authentication with login, registration, and
+                  password change functionality using NextAuth. Focused on delivering a seamless, responsive, and user-friendly shopping experience.
+                </p>
+                <div className="flex flex-wrap gap-2 pb-3">
+                  <span className="rounded-full text-white bg-gray-500 px-3 pb-1 pt-0.5 text-xs">Next JS</span>
+                  <span className="rounded-full text-white bg-gray-500 px-3 pb-1 pt-0.5 text-xs">TS</span>
+                  <span className="rounded-full text-white bg-gray-500 px-3 pb-1 pt-0.5 text-xs">Tailwind CSS</span>
+                  <span className="rounded-full text-white bg-gray-500 px-3 pb-1 pt-0.5 text-xs">NextAuth</span>
+                </div>
+                <button type='button' className='hover:bg-gradient-to-br border border-purple-500 from-blue-400 to-purple-500 rounded-full w-40 py-2 text-center font-bold text-xl cursor-pointer duration-500 transition-colors hover:duration-500 hover:transition-colors'>
+                  <a href="https://commerce-r3zb-pqcvtlqzo-nesma-farids-projects.vercel.app/" target='_blank' rel="noopener noreferrer">Live Demo</a>
+                </button>
+              </div>
+            </div>
+          
+            <div className="card w-[400px] group bg-[#1F2937] rounded-xl overflow-hidden hover:scale-105 transition-all duration-700">
+              <img src={projectEightImg} className="w-full h-48 object-cover group-hover:scale-105 transition-all duration-700" alt="project1" />
+              <div className="p-4 text-white">
+                <h3 className="text-xl font-bold">Social media Linked Posts</h3>
+                <p className="text-sm text-gray-300 py-2">
+                  Social media web app where users can: Create posts with text and images. Comment on posts and interact with others. Update or delete their posts and comments. Change their profile photo and have it update everywhere instantly. Securely change their password.                </p>
+                <div className="flex flex-wrap gap-2 pb-16">
+                  <span className="rounded-full text-white bg-gray-500 px-3 pb-1 pt-0.5 text-xs">React JS</span>
+                  <span className="rounded-full text-white bg-gray-500 px-3 pb-1 pt-0.5 text-xs">Tailwind CSS</span>
+                </div>
+                <button type='button' className='hover:bg-gradient-to-br border border-purple-500 from-blue-400 to-purple-500 rounded-full w-40 py-2 text-center font-bold text-xl cursor-pointer duration-500 transition-colors hover:duration-500 hover:transition-colors'>
+                  <a href="https://linked-posts-green-three.vercel.app/login" target='_blank' rel="noopener noreferrer">Live Demo</a>
+                </button>
+              </div>
+            </div>
+            <div className="card w-[400px] group bg-[#1F2937] rounded-xl overflow-hidden hover:scale-105 transition-all duration-700">
+              <img src={projectNineImg} className="w-full h-48 object-cover group-hover:scale-105 transition-all duration-700" alt="project1" />
+              <div className="p-4 text-white">
+                <h3 className="text-xl font-bold">Ramadan Kareem Celebration</h3>
+                <p className="text-sm text-gray-300 py-2">
+                    Personalized celebration page with Ramadan-themed visuals
+                    Ambient sounds to enhance the spiritual atmosphere
+                </p>
+                <div className="flex flex-wrap gap-2 pb-16">
+                  <span className="rounded-full text-white bg-gray-500 px-3 pb-1 pt-0.5 text-xs">Next JS</span>
+                  <span className="rounded-full text-white bg-gray-500 px-3 pb-1 pt-0.5 text-xs">Tailwind CSS</span>
+                </div>
+                <button type='button' className='hover:bg-gradient-to-br border border-purple-500 from-blue-400 to-purple-500 rounded-full w-40 py-2 text-center font-bold text-xl cursor-pointer duration-500 transition-colors hover:duration-500 hover:transition-colors'>
+                  <a href="https://ramadan-kareem-d.vercel.app/" target='_blank' rel="noopener noreferrer">Live Demo</a>
+                </button>
+              </div>
+            </div>
+            {/* Project 1 */}
+            {/* <div className="card w-[400px] group bg-[#1F2937] rounded-xl overflow-hidden hover:scale-105 transition-all duration-700">
               <img src={projectOneImg} className="w-full h-48 object-cover group-hover:scale-105 transition-all duration-700" alt="project1" />
               <div className="p-4 text-white">
                 <h3 className="text-xl font-bold">Start Frame Work</h3>
@@ -36,7 +91,7 @@ export default function Projects() {
                   <a href="https://nesmafarid9.github.io/Start-Framework/" target='_blank' rel="noopener noreferrer">Live Demo</a>
                 </button>
               </div>
-            </div>
+            </div> */}
 
             {/* Project 2 */}
             <div className="card w-[400px] group bg-[#1F2937] rounded-xl overflow-hidden hover:scale-105 transition-all duration-700">

@@ -43,7 +43,7 @@ export default function Navbar() {
                 <div className="list">
                     <ul className='lg:flex flex-wrap hidden gap-10 text-white font-bold'>
                             {
-                                ['home', 'about', 'projects', 'experience', 'contact'].map(section => (
+                                ['home', 'skills', 'projects', 'experience', 'contact'].map(section => (
                                     <li key={section}>
                                         <Link
                                             to={section}
@@ -72,7 +72,7 @@ export default function Navbar() {
                 openMenu ?  
                 <ul className='bg-gradient-to-br from-gray-800 to-gray-700 bg-opacity-20 backdrop-blur-md px-7 text-white space-y-2 pt-5 text-center lg:hidden flex flex-col transition-500 duration-300 ease-in-out'>
                     {
-                                ['home', 'about', 'projects', 'experience', 'contact'].map(section => (
+                                ['home', 'skills', 'projects', 'experience', 'contact'].map(section => (
                                     <li key={section}>
                                         <Link
                                             to={section}

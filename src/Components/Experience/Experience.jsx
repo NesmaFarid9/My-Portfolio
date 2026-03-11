@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import experienceOneImg from '../../assets/images/experience1.png';
 import experienceTwoImg from '../../assets/images/experience2.png';
+import experienceThreeImg from '../../assets/images/csg.png';
 
 export default function Experience() {
   const fadeInUp = {
@@ -46,29 +47,28 @@ export default function Experience() {
           whileInView="visible"
           viewport={{ once: true }}
         >
-          <div className="flex flex-wrap justify-center align-center items-center gap-5">
-
+          <div className="flex flex-wrap justify-center align-center items-center gap-5 pb-12">
             {/* Experience 1 */}
             <motion.div
               variants={fadeInUp}
               className="sm:w-full lg:w-3/12 mx-5 md:mx-0 hover:scale-102 duration-700 transition-all"
             >
               <div className="card-experience bg-[#111827] shadow-sm shadow-black flex flex-col items-center p-7 rounded-2xl text-center text-white">
-                <img src={experienceOneImg} alt="Coding Instructor" className="w-20 rounded-2xl" />
+                <img src={experienceThreeImg} alt="React Native Intern" className="w-27 rounded-2xl" />
                 <div className="caption">
                   <div className="py-5 flex justify-center">
                     <h2 className="rounded-2xl py-2 px-2 w-50 font-bold bg-gradient-to-br from-blue-500 to-purple-400">
-                      Coding Instructor
+                      Front-End Developer (React Native Intern)
                     </h2>
                   </div>
                   <p className="text-gray-400 text-sm">
-                    As a Code Instructor at iSchool, I teach students aged 6 to 18 the foundations of computer science using Python, Web development, Mobile development, Game development (Godot), Data Science, and Scratch. I create interactive sessions and tailor teaching methods to diverse skill levels.
-                  </p>
+                      Developed and optimized mobile user interfaces using React Native, focusing on performance and usability.
+                      Collaborated with designers and backend developers to deliver a seamless and responsive user experience.
+                      Implemented reusable components and followed best practices to improve code quality and maintainability.                  </p>
                 </div>
               </div>
             </motion.div>
-
-            {/* Experience 2 */}
+               {/* Experience 2 */}
             <motion.div
               variants={fadeInUp}
               className="sm:w-full lg:w-3/12 mx-5 md:mx-0 hover:scale-102 duration-700 transition-all"
@@ -87,8 +87,29 @@ export default function Experience() {
                 </div>
               </div>
             </motion.div>
+            </div>
+        <div className="flex flex-wrap justify-center align-center items-center gap-5">
 
             {/* Experience 3 */}
+            <motion.div
+              variants={fadeInUp}
+              className="sm:w-full lg:w-3/12 mx-5 md:mx-0 hover:scale-102 duration-700 transition-all"
+            >
+              <div className="card-experience bg-[#111827] shadow-sm shadow-black flex flex-col items-center p-7 rounded-2xl text-center text-white">
+                <img src={experienceOneImg} alt="Coding Instructor" className="w-20 rounded-2xl" />
+                <div className="caption">
+                  <div className="py-5 flex justify-center">
+                    <h2 className="rounded-2xl py-2 px-2 w-50 font-bold bg-gradient-to-br from-blue-500 to-purple-400">
+                      Coding Instructor
+                    </h2>
+                  </div>
+                  <p className="text-gray-400 text-sm">
+                    As a Code Instructor at iSchool, I teach students aged 6 to 18 the foundations of computer science using Python, Web development, Mobile development, Game development (Godot), Data Science, and Scratch. I create interactive sessions and tailor teaching methods to diverse skill levels.
+                  </p>
+                </div>
+              </div>
+            </motion.div>
+            {/* Experience 4 */}
             <motion.div
               variants={fadeInUp}
               className="sm:w-full lg:w-3/12 mx-5 md:mx-0 hover:scale-102 duration-700 transition-all"

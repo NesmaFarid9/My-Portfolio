@@ -69,7 +69,7 @@ export default function Home() {
                     className="hover:bg-gradient-to-br border border-purple-500 from-blue-400 to-purple-500 rounded-full w-30 py-3 text-center font-bold text-xl cursor-pointer transition-all duration-700 ease-in-out hover:scale-102"
                   >
                     <a
-                      href="https://drive.google.com/file/d/1UQJdg9psQzLZ26CkmZuADIWw7z5_XNMn/view?usp=sharing"
+                      href="https://drive.google.com/file/d/1QW3bcDgv3MmyjBBZ0VU4EfsrX38PkW8G/view?usp=sharing"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
