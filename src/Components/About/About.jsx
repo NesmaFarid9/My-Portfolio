@@ -22,7 +22,7 @@ export default function Skills() {
 
   return (
     <>
-      <section id='skills' className="bg-[#1F2937] py-5 md:h-[60vh] h-[70vh]">
+      <section id='skills' className="bg-[#1F2937] py-5 md:h-[70vh] h-[80vh]">
         <div className="container py-5">
 
           {/* Title */}

@@ -53,7 +53,7 @@ export default function Projects() {
                   <span className="rounded-full text-white bg-gray-500 px-3 pb-1 pt-0.5 text-xs">Tailwind CSS</span>
                 </div>
                 <button type='button' className='hover:bg-gradient-to-br border border-purple-500 from-blue-400 to-purple-500 rounded-full w-40 py-2 text-center font-bold text-xl cursor-pointer duration-500 transition-colors hover:duration-500 hover:transition-colors'>
-                  <a href="https://linked-posts-green-three.vercel.app/login" target='_blank' rel="noopener noreferrer">Live Demo</a>
+                  <a href="https://linked-posts-green-three.vercel.app" target='_blank' rel="noopener noreferrer">Live Demo</a>
                 </button>
               </div>
             </div>
